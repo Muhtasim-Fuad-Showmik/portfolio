@@ -5,8 +5,9 @@ export const projects = [
       image: 'https://i.ibb.co/GPn2NC2/bodywrap.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://github.com/Muhtasim-Fuad-Showmik/BodyWrap',
-    visit: 'https://google.com',
+    visit: 'https://github.com/Muhtasim-Fuad-Showmik/BodyWrap',
     id: 0,
+    deployed: false,
   },
   {
     title: 'Tent',
@@ -16,6 +17,7 @@ export const projects = [
     source: 'https://github.com/Muhtasim-Fuad-Showmik/Tent',
     visit: 'http://powerful-river-65642.herokuapp.com/',
     id: 1,
+    deployed: true,
   }
 ];
 
