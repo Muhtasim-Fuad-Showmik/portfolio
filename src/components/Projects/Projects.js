@@ -4,15 +4,6 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-const projectsDemo = [{
-  title: 'Campgrounds',
-  description: ''
-},
-{
-  title: 'BodyWrap',
-  description: 'An ecommerce website that is tailored towards selling apparel items online. The project is made using Mongoose, Express, React and Node JS. It has security implementations using AES hashing and also has an admin dashboard prepared for the business owner.'
-}];
-
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
