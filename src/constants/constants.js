@@ -25,4 +25,5 @@ export const TimeLineData = [
   { year: 2016, text: 'Began pursuing my BSCSE degree', },
   { year: 2020, text: 'Acquired my BSCSE degree with 3.98 CGPA and got employed as a Research Consultant (Junior Programmer) at CEGIS', },
   { year: 2021, text: 'Acquired a certificate on completion of a Web Development Bootcamp on Udemy', },
+  { year: 2022, text: 'Began working as a Senior Developer at SCT Bangla (a sister concern of Schertech)', },
 ];
