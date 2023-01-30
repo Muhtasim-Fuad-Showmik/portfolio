@@ -23,7 +23,8 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js, Next.js and Angular.js
+            React, Next, Vue, Qwik,<br/>
+            SAP UI5 and Angular
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -34,7 +35,8 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js, ASP .Net Core, and PHP
+            Node.js, ASP .Net Core,<br/>
+            Django, SAP CAP and PHP
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,7 +47,8 @@ const Technologies = () =>  (
           <ListTitle>Databases</ListTitle>
           <ListParagraph>
             Experience with <br />
-            MongoDB, MySQL and Oracle
+            MongoDB, MySQL, Oracle<br/>
+            and PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>

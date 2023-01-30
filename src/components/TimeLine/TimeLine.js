@@ -77,7 +77,20 @@ const Timeline = () => {
         me but was interesting at the same time. Googling around and matching stack 
         overflow suggestions to the version of my project and finding solutions from 
         the past that would work for this rather ancient project was tough but rewarding 
-        in the end.
+        in the end.<br/><br/>
+
+        In 2022, I switched my job for the first time and joined as a Senior Developer at
+        Schertech. This was a breath of fresh air for me. The environment was casual, and
+        the colleagues were so friendly, my work felt more like a hangout than a place to
+        complete tasks out of a stressful agenda. However, this was my introduction to SAP.
+        Honestly, this was the first time I found programming to be a painful experience.
+        I had not idea that a programming language could lack resources to this extent and
+        feel so opposite to being intuitive. But, this made me appreciate new frameworks
+        more. The more I got used to the SAP approach, the more I fell in love with Vue,
+        Qwik, Svelte and all other frameworks, their syntax and approach and a hands on
+        experience with SAP will always be a great tale to share, right? Despite all my
+        complaints, I loved this job. I loved it for my colleagues and a great mentor.
+        People I would carry on remembering with fondness throughout my future.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
