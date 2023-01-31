@@ -71,7 +71,7 @@ export const projects = [
   },
   {
     title: 'Order Management',
-    description:"A sample application with three versions implemented inside, where the combination of SAP UI5 frontend, Vue frontend, and SAP CAP backend is tested out using the same logic on all projects.",
+    description:"A sample application with three versions implemented inside, where the combination of SAP UI5 frontend, Vue frontend, and SAP CAP backend is tested out using the same logic on all projects. The project also has localization logic implemented on it for German, Italian and English language.",
     image: 'https://i.ibb.co/42Wh7dp/Order-Management-Home.png',
     tags: ['SAP UI5', 'Vue', 'i18n', 'SAP CAP'],
     source: 'https://github.com/Muhtasim-Fuad-Showmik/UI5-OrderManagement',
