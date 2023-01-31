@@ -72,7 +72,7 @@ export const projects = [
   {
     title: 'Order Management',
     description:"A sample application with three versions implemented inside, where the combination of SAP UI5 frontend, Vue frontend, and SAP CAP backend is tested out using the same logic on all projects.",
-    image: 'https://i.ibb.co/xj0p7XS/tent.png',
+    image: 'https://i.ibb.co/42Wh7dp/Order-Management-Home.png',
     tags: ['SAP UI5', 'Vue', 'i18n', 'SAP CAP'],
     source: 'https://github.com/Muhtasim-Fuad-Showmik/UI5-OrderManagement',
     visit: 'https://github.com/Muhtasim-Fuad-Showmik/UI5-OrderManagement',
@@ -80,9 +80,9 @@ export const projects = [
     deployed: false,
   },
   {
-    title: 'Cloud DNA',
+    title: 'Customer Overview (Cloud DNA)',
     description:"A sample SAP implementing Cloud DNA training logics using SAP UI5 and SAP CAP, with updated OData v4 logic instead of the training's usual OData v2 logic.",
-    image: 'https://i.ibb.co/xj0p7XS/tent.png',
+    image: 'https://i.ibb.co/d7t1PkF/Cloud-DNACustomer-Overview-Home.png',
     tags: ['SAP UI5', 'SAP CAP'],
     source: 'https://github.com/Muhtasim-Fuad-Showmik/CloudDNA-Training',
     visit: 'https://github.com/Muhtasim-Fuad-Showmik/CloudDNA-Training',
