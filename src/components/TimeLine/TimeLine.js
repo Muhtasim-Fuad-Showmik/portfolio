@@ -1,8 +1,23 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants';
+import {
+  CarouselButton,
+  CarouselButtonDot,
+  CarouselButtons,
+  CarouselContainer,
+  CarouselItem,
+  CarouselItemImg,
+  CarouselItemText,
+  CarouselItemTitle,
+  CarouselMobileScrollNode,
+} from "./TimeLineStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -11,105 +26,116 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
-  }
+    return node.scrollTo({ left, behavior: "smooth" });
+  };
 
   const handleClick = (e, i) => {
     e.preventDefault();
 
     if (carouselRef.current) {
-      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+      const scrollLeft = Math.floor(
+        carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
+      );
+
       scroll(carouselRef.current, scrollLeft);
     }
-  }
+  };
 
   const handleScroll = () => {
     if (carouselRef.current) {
-      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+      const index = Math.round(
+        (carouselRef.current.scrollLeft /
+          (carouselRef.current.scrollWidth * 0.7)) *
+          TimeLineData.length
+      );
 
       setActiveItem(index);
     }
-  }
+  };
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
-    }
+    };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
   }, []);
 
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I grew up wanting to be many things. So many career options intrigued 
-        me. From pilot to doctor to architect to aeronautical engineer to finally
-        software developer. While each of my career choices came from inspirational
-        people around me, the final choice oddly enough came from an email which 
-        included an advertisement for the educational platform "Sololearn" where 
-        anyone could learn a programming language for free. The ad focused on Python 
-        and how large organizations used this language and I was curious.<br /><br />
-        
-        I fell for the ad, signed up on their website, and I was hooked. Programming 
-        is fun and I had decided that this will be my career for eternity. So I pursued 
-        my Bachelor's degree from United International University and graduated with 
-        almost perfect grades and set off on my journey to develop skills as a programmer 
-        and make the most of my potential on this field.<br /><br />
-
-        Hard work is necessary for keeping up in the tech world, but I love my career 
-        choice because at least for this line of work, hard work is fun for me. I love 
-        knowing that I can sit on a computer and build anything I want for free. The skills 
-        empower me, and I am very very proud of my line of work.<br /><br />
-
-        I have worked as a Research Consultant (Junior Programmer) at CEGIS for 
-        two years and this has been my first job since graduation. Work here can 
-        be relaxing on some days and challenging on another. My daily tasks vary 
-        greatly based on the projects the company acquire and the responsibilities 
-        that are laid on to me. Deadlines are often set to be too close for comfort, 
-        and at times I had to learn a different tech in very short periods of time. 
-        My toughest challenge so far has been to learn Cake PHP 2 within 3 days and 
-        begin working on a project that was developed 10 years prior to my appointment 
-        to the project. Scavenging through outdated resources and tutorials was new to 
-        me but was interesting at the same time. Googling around and matching stack 
-        overflow suggestions to the version of my project and finding solutions from 
-        the past that would work for this rather ancient project was tough but rewarding 
-        in the end.<br/><br/>
-
-        In 2022, I switched my job for the first time and joined as a Senior Developer at
-        Schertech. This was a breath of fresh air for me. The environment was casual, and
-        the colleagues were so friendly, my work felt more like a hangout than a place to
-        complete tasks out of a stressful agenda. However, this was my introduction to SAP.
-        Honestly, this was the first time I found programming to be a painful experience.
-        I had not idea that a programming language could lack resources to this extent and
-        feel so opposite to being intuitive. But, this made me appreciate new frameworks
-        more. The more I got used to the SAP approach, the more I fell in love with Vue,
-        Qwik, Svelte and all other frameworks, their syntax and approach and a hands on
-        experience with SAP will always be a great tale to share, right? Despite all my
-        complaints, I loved this job. I loved it for my colleagues and a great mentor.
-        People I would carry on remembering with fondness throughout my future.
+        Grew up thinking programmers only code with 1s and 0s, until one fateful
+        day a promotional email from Sololearn's free fundamental development
+        courses was all it took for me to get hooked into the world of software
+        development.
+        <br />
+        <br />I pursued my Bachelor's degree from United International
+        University and graduated with almost perfect grades (
+        <strong>3.98</strong>) and set off on my journey to develop skills as a
+        programmer and make the most of my potential on this field.
+        <br />
+        <br />
+        Hard work is necessary for keeping up in the tech world, but I love my
+        career choice because at least for this line of work, hard work is fun
+        for me. I love knowing that I can sit on a computer and build anything I
+        want for free. The skills empower me, and I am very very proud of my
+        line of work.
+        <br />
+        <br />
+        I have worked as a Research Consultant (Junior Programmer) at CEGIS for
+        two years and this has been my first job since graduation. Work here was
+        relaxing on some days and challenging on others. My daily tasks varied
+        greatly based on the projects the company acquire and the
+        responsibilities that are laid on to me. Deadlines are often set to be
+        too close for comfort, and at times I had to learn a different tech in
+        very short periods of time. My toughest challenge had been to learn Cake
+        PHP 2 within 3 days and begin working on a project that was developed 10
+        years prior to my assignment to the project. Scavenging through outdated
+        resources and tutorials was new to me but was interesting at the same
+        time. Googling around and matching stack overflow suggestions to the
+        version of my project and finding solutions from the past that would
+        work for this rather ancient project was tough but rewarding in the end.
+        <br />
+        <br />
+        In 2022, I switched my job for the first time and joined as a Senior
+        Developer at Schertech and was later promoted to the position of Deputy
+        Team Lead in the year 2023. This was a breath of fresh air for me. There
+        were tough challenges for me to face here, and opportunities for more
+        research and complex client requirements. I had more room to grow here
+        as a developer as well as a leader. Understanding delays and optimizing
+        task distribution on each sprint while maintaining quality using
+        automated tests and sometimes other more urgent strategies to keep the
+        clients happy and the company name shining as a symbol for the Italians
+        kept me always rushing on my feet. Also, researching possibilities of
+        integration with React, Vue and Angular components with SAP's CAPire
+        backend lacked its resources and therefore required more investment from
+        my brain, which has been enjoyable in its own way.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
-            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+            <CarouselMobileScrollNode
+              key={index}
+              final={index === TOTAL_CAROUSEL_COUNT - 1}
+            >
               <CarouselItem
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}
               >
-              <CarouselItemTitle>
-                {item.year}
-                <CarouselItemImg
+                <CarouselItemTitle>
+                  {item.year}
+                  <CarouselItemImg
                     width="208"
                     height="6"
                     viewBox="0 0 208 6"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
@@ -124,7 +150,8 @@ const Timeline = () => {
                         y1="0.5"
                         x2="208"
                         y2="0.500295"
-                        gradientUnits="userSpaceOnUse">
+                        gradientUnits="userSpaceOnUse"
+                      >
                         <stop stop-color="white" />
                         <stop
                           offset="0.79478"
@@ -134,8 +161,8 @@ const Timeline = () => {
                       </linearGradient>
                     </defs>
                   </CarouselItemImg>
-              </CarouselItemTitle>
-              <CarouselItemText>{item.text}</CarouselItemText>
+                </CarouselItemTitle>
+                <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}
@@ -143,7 +170,7 @@ const Timeline = () => {
       </CarouselContainer>
       <CarouselButtons>
         {TimeLineData.map((item, index) => (
-          <CarouselButton 
+          <CarouselButton
             key={index}
             index={index}
             active={activeItem}
