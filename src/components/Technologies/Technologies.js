@@ -34,7 +34,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React, Next, Vue, Qwik,
+            React, Next, Vue,
             <br />
             SAP UI5 and Angular
           </ListParagraph>
@@ -73,7 +73,7 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Adobe XD
+            Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>

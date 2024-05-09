@@ -81,38 +81,40 @@ const Timeline = () => {
         Hard work is necessary for keeping up in the tech world, but I love my
         career choice because at least for this line of work, hard work is fun
         for me. I love knowing that I can sit on a computer and build anything I
-        want for free. The skills empower me, and I am very very proud of my
-        line of work.
+        want. The skills empower me, and I am very very proud of my line of
+        work.
         <br />
         <br />
         I have worked as a Research Consultant (Junior Programmer) at CEGIS for
-        two years and this has been my first job since graduation. Work here was
-        relaxing on some days and challenging on others. My daily tasks varied
-        greatly based on the projects the company acquire and the
-        responsibilities that are laid on to me. Deadlines are often set to be
-        too close for comfort, and at times I had to learn a different tech in
-        very short periods of time. My toughest challenge had been to learn Cake
-        PHP 2 within 3 days and begin working on a project that was developed 10
-        years prior to my assignment to the project. Scavenging through outdated
-        resources and tutorials was new to me but was interesting at the same
-        time. Googling around and matching stack overflow suggestions to the
-        version of my project and finding solutions from the past that would
-        work for this rather ancient project was tough but rewarding in the end.
+        two years and this has been my first job since graduation. I got
+        accustomed to all kinds of projects here including legacy projects from
+        10 years back to very modern international projects working under
+        reknowned organizations such as UNDP. Juggling between different tech
+        stacks was a norm here and it was fun and never got old.
         <br />
         <br />
-        In 2022, I switched my job for the first time and joined as a Senior
-        Developer at Schertech and was later promoted to the position of Deputy
-        Team Lead in the year 2023. This was a breath of fresh air for me. There
-        were tough challenges for me to face here, and opportunities for more
-        research and complex client requirements. I had more room to grow here
-        as a developer as well as a leader. Understanding delays and optimizing
-        task distribution on each sprint while maintaining quality using
-        automated tests and sometimes other more urgent strategies to keep the
-        clients happy and the company name shining as a symbol for the Italians
-        kept me always rushing on my feet. Also, researching possibilities of
-        integration with React, Vue and Angular components with SAP's CAPire
-        backend lacked its resources and therefore required more investment from
-        my brain, which has been enjoyable in its own way.
+        In 2022, I switched my job and joined as a Senior Developer at Schertech
+        and was later promoted to the position of Deputy Team Lead in the year
+        2023. This was a breath of fresh air for me. There were tough challenges
+        for me to face here, and opportunities for more research and complex
+        client requirements. I had more room to grow here as a developer as well
+        as a leader. Understanding delays and optimizing task distribution on
+        each sprint while maintaining quality using automated tests and
+        sometimes other more urgent strategies to keep the clients happy and the
+        company name shining as a symbol for the Italians kept me always rushing
+        on my feet. Also, researching possibilities of integration with React,
+        Vue and Angular components with SAP's CAPire backend lacked its
+        resources and therefore required more investment from my brain, which
+        has been enjoyable in its own way.
+        <br />
+        <br />
+        In 2024, I joined Zolo Inc as a Senior Programmer. My first brush with
+        the startup world. Felt like suddenly lifting a mountain on my
+        shoulders. I was responsible for leading the development team and build
+        the application from scratch. I had to know everything the project
+        required and I if there were something I was missing I had to learn it
+        faster than ever. And I loved every second of it. This was the peak of
+        my growth as a developer.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

@@ -118,4 +118,8 @@ export const TimeLineData = [
     year: 2023,
     text: "Got promoted to the role of Deputy Team Lead at SCT Bangla (a sister concern of Schertech)",
   },
+  {
+    year: 2024,
+    text: "Began working as a Senior Programmer at Zolo Inc",
+  },
 ];
