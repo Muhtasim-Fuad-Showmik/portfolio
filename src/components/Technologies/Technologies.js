@@ -21,11 +21,7 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      Due to the nature of my job, I have had to work with a range of
-      technologies for developing applications based on client needs. But even
-      beyond that, my curiosity and passion for tech has led me to learn and use
-      even more languages, frameworks and tools in order for me to keep up with
-      the modern tech in demand.
+      My professional experience has involved leveraging a diverse range of technologies to meet client requirements. Driven by a strong passion for technology and a commitment to continuous learning, I actively explore and adopt new languages, frameworks, and tools to stay current with industry advancements.
     </SectionText>
     <List>
       <ListItem>

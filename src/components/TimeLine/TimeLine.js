@@ -67,54 +67,16 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Grew up thinking programmers only code with 1s and 0s, until one fateful
-        day a promotional email from Sololearn's free fundamental development
-        courses was all it took for me to get hooked into the world of software
-        development.
-        <br />
-        <br />I pursued my Bachelor's degree from United International
-        University and graduated with almost perfect grades (
-        <strong>3.98</strong>) and set off on my journey to develop skills as a
-        programmer and make the most of my potential on this field.
+        My journey into software development began unexpectedly, sparked by a Sololearn email. I graduated from United International University with a <strong>3.98</strong> GPA, eager to build a career in programming. I thrive on the challenge and creativity of software development, finding immense satisfaction in building anything I envision.
         <br />
         <br />
-        Hard work is necessary for keeping up in the tech world, but I love my
-        career choice because at least for this line of work, hard work is fun
-        for me. I love knowing that I can sit on a computer and build anything I
-        want. The skills empower me, and I am very very proud of my line of
-        work.
+        I spent two years as a Research Consultant (Junior Programmer) at CEGIS, gaining experience with diverse projects, from legacy systems to modern international collaborations with organizations like UNDP. This role honed my adaptability across various tech stacks.
         <br />
         <br />
-        I have worked as a Research Consultant (Junior Programmer) at CEGIS for
-        two years and this has been my first job since graduation. I got
-        accustomed to all kinds of projects here including legacy projects from
-        10 years back to very modern international projects working under
-        reknowned organizations such as UNDP. Juggling between different tech
-        stacks was a norm here and it was fun and never got old.
+        In 2022, I joined Schertech as a Senior Developer, quickly advancing to Deputy Team Lead in 2023. This period offered significant growth, allowing me to tackle complex client requirements, optimize task distribution, and lead development efforts while maintaining high quality through automated testing. I also explored integrating React, Vue, and Angular components with SAP's CAPire backend.
         <br />
         <br />
-        In 2022, I switched my job and joined as a Senior Developer at Schertech
-        and was later promoted to the position of Deputy Team Lead in the year
-        2023. This was a breath of fresh air for me. There were tough challenges
-        for me to face here, and opportunities for more research and complex
-        client requirements. I had more room to grow here as a developer as well
-        as a leader. Understanding delays and optimizing task distribution on
-        each sprint while maintaining quality using automated tests and
-        sometimes other more urgent strategies to keep the clients happy and the
-        company name shining as a symbol for the Italians kept me always rushing
-        on my feet. Also, researching possibilities of integration with React,
-        Vue and Angular components with SAP's CAPire backend lacked its
-        resources and therefore required more investment from my brain, which
-        has been enjoyable in its own way.
-        <br />
-        <br />
-        In 2024, I joined Zolo Inc as a Senior Programmer. My first brush with
-        the startup world. Felt like suddenly lifting a mountain on my
-        shoulders. I was responsible for leading the development team and build
-        the application from scratch. I had to know everything the project
-        required and I if there were something I was missing I had to learn it
-        faster than ever. And I loved every second of it. This was the peak of
-        my growth as a developer.
+        In 2024, I embraced the startup environment at Zolo Inc as a Senior Programmer. I led the development team in building an application from scratch, rapidly acquiring new skills and experiencing substantial professional growth.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -139,11 +101,11 @@ const Timeline = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
                       fill="url(#paint0_linear)"
-                      fill-opacity="0.33"
+                      fillOpacity="0.33"
                     />
                     <defs>
                       <linearGradient
@@ -154,11 +116,11 @@ const Timeline = () => {
                         y2="0.500295"
                         gradientUnits="userSpaceOnUse"
                       >
-                        <stop stop-color="white" />
+                        <stop stopColor="white" />
                         <stop
                           offset="0.79478"
-                          stop-color="white"
-                          stop-opacity="0"
+                          stopColor="white"
+                          stopOpacity="0"
                         />
                       </linearGradient>
                     </defs>

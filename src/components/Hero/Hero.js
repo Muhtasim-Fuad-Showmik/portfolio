@@ -13,7 +13,7 @@ const Hero = () => (
         Muhtasim Fuad Showmik
       </SectionTitle>
       <SectionText>
-        I am an ordinary software developer with extraordinary goals. I am passionate about programming, and love pushing myself hard towards my maximum potential. I find learning new technology fun and creating new applications always fill me with pride.
+        A dedicated software engineer driven by a passion for crafting innovative solutions and continuously expanding technical expertise. I am committed to pushing the boundaries of what's possible in software development.
       </SectionText>
       <Button>
         <Link href="#about">

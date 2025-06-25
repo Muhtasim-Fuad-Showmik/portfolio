@@ -120,6 +120,6 @@ export const TimeLineData = [
   },
   {
     year: 2024,
-    text: "Began working as a Senior Programmer at Zolo Inc",
+    text: "Began working as a Senior Programmer to lead a dev team at Zolo Inc",
   },
 ];
